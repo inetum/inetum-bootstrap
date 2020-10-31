@@ -1,18 +1,18 @@
 # inetum-bootstrap
 
-![inetum](doc/inetum.png)
+![inetum](docs/inetum.png)
 
 [inetum.world](https://inetum.world) boostrap theme.
 
 ## Examples
 
-See [doc/index.html](doc/index.html) for some examples 
+See [https://inetum.github.io/inetum-bootstrap](https://inetum.github.io/inetum-bootstrap) for some live examples 
 
 ## Usage
 
 ### CSS
 
-You can directly download the css from [dist/](dist/)
+You can directly download the css from [dist/css](dist/css)
 
 ### CDN
 
@@ -47,7 +47,7 @@ etc.
 
 ## Colors
 
-![colors](doc/colors.jpg)
+![colors](docs/colors.jpg)
 
 ## Credits
 

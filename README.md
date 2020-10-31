@@ -2,7 +2,7 @@
 
 ![inetum](docs/inetum.png)
 
-[inetum.world](https://inetum.world) boostrap theme.
+[inetum.world](https://inetum.world) bootstrap theme.
 
 ## Examples
 
@@ -37,7 +37,7 @@ Then include the sass to your project
 
 Version follow bootstrap versioning + an additional pre-release identifier as describe in [Semantic Versioning](https://semver.org/#spec-item-9)
 
-| inetnum-bootstrap | boostrap      |
+| inetnum-bootstrap | bootstrap      |
 |:-----------------:| ------------- |
 | 4.5.3-rc1         | ^4.5.3        |
 | 4.5.3-rc2         | ^4.5.3        |

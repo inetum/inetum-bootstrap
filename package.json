@@ -8,7 +8,8 @@
   "scripts": {
     "css-main": "node-sass scss/inetum.scss dist/css/inetum.css",
     "css-minify": "node-sass scss/inetum.scss dist/css/inetum.min.css --output-style compressed",
-    "dist": "npm-run-all --parallel css-main css-minify"
+    "docs": "node-sass scss/inetum.scss docs/inetum.min.css --output-style compressed",
+    "dist": "npm-run-all --parallel css-main css-minify docs"
   },
   "style": "dist/css/inetum.css",
   "sass": "scss/inetum.scss",

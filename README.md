@@ -23,7 +23,7 @@ Use [jsdelivr](https://www.jsdelivr.com/package/npm/inetum-bootstrap?path=dist%2
 
 ### NPM and Sass
 
-    npm install --save inetum-bootstrap@latest
+    npm install --save @inetum/inetum-bootstrap@latest
 
 Then follow bootstrap tutorials:
 https://getbootstrap.com/docs/4.5/getting-started/webpack/#importing-precompiled-sass

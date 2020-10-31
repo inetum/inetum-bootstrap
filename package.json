@@ -1,5 +1,5 @@
 {
-  "name": "inetum-bootstrap",
+  "name": "@inetum/inetum-bootstrap",
   "version": "4.5.3-rc1",
   "description": "inetum.world bootstrap theme",
   "directories": {

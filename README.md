@@ -16,38 +16,49 @@ You can directly download the css from [dist/css](dist/css)
 
 ### CDN
 
-Use [jsdelivr](https://www.jsdelivr.com/package/npm/inetum-bootstrap?path=dist%2Fcss)
+Use [jsdelivr > inetum > inetum-bootstrap](https://www.jsdelivr.com/package/gh/inetum/inetum-bootstrap?path=dist%2Fcss)
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inetum-bootstrap@4.5.3-rc1/dist/css/inetum.min.js" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inetum/inetum-bootstrap@4.5.3-rc1/dist/css/inetum.min.css" integrity="sha256-DZT1SObUN+nrHEXc3rdVOhcvqfTcUbORHyEEv+THSYg=" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha256-2JaAhvdQnfNMMnhWPauHOZ2k+dzftBmBjjownu3HC4g=" crossorigin="anonymous"></script>
 
-### NPM and Sass
+### Sass
+
+To use or extend sass in your project.
+
+Create a `.npmrc` with the following content:
+
+    @inetum:registry=https://npm.pkg.github.com
+
+Install:
 
     npm install --save @inetum/inetum-bootstrap@latest
 
-Then follow bootstrap tutorials:
-https://getbootstrap.com/docs/4.5/getting-started/webpack/#importing-precompiled-sass
+Import inetum scss:
 
-Then include the sass to your project
+    @import '~@inetum/inetum-bootstrap/scss/inetum';
 
-    @import "custom";
-    @import "~inetum-bootstrap/scss/inetum";
+For more information on how to extend, follow bootstrap tutorials: [importing-precompiled-sass](https://getbootstrap.com/docs/4.5/getting-started/webpack/#importing-precompiled-sass)
 
-## Version
+#### Colors
+
+Specific colors define in [inetum.scss](scss/inetum.scss) are:
+
+    $strong-blue: #232d4b;
+    $neutral-blue: #005573;
+    $mineral-green: #00aa9b;
+    $accent-red: #dc3545;
+
+![colors](docs/colors.jpg)
+
+## Compatibility
 
 Version follow bootstrap versioning + an additional pre-release identifier as describe in [Semantic Versioning](https://semver.org/#spec-item-9)
 
-| inetnum-bootstrap | bootstrap      |
+| inetnum-bootstrap | bootstrap     |
 |:-----------------:| ------------- |
 | 4.5.3-rc1         | ^4.5.3        |
 | 4.5.3-rc2         | ^4.5.3        |
-| 4.6.0-rc1         | ^4.6.0        |
 
-etc.
-
-## Colors
-
-![colors](docs/colors.jpg)
 
 ## Credits
 

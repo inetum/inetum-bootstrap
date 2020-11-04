@@ -1,0 +1,32 @@
+// Brand Colors
+$strong-blue: #232d4b;
+$neutral-blue: #005573;
+$mineral-green: #00aa9b;
+$accent-red: #dc3545;
+$green: #28a745;
+$red: #ff0000;
+$gray-100: #f8f9fa;
+$gray-800: #343a40;
+
+$theme-colors: (
+  primary: $strong-blue,
+  secondary: $neutral-blue,
+  success: $green,
+  info: $mineral-green,
+  warning: $accent-red,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-800
+);
+
+// Fonts
+$font-family-sans-serif: Poppins, Verdana;
+$font-family-monospace: Roboto Mono, 'Courier New', monospace;
+
+// Options
+$enable-rounded: false;
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

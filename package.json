@@ -1,0 +1,41 @@
+{
+  "name": "@inetum/inetum-bootstrap",
+  "version": "4.5.3-rc2",
+  "description": "inetum.world bootstrap theme",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "css-main": "node-sass scss/inetum.scss dist/css/inetum.css",
+    "css-minify": "node-sass scss/inetum.scss dist/css/inetum.min.css --output-style compressed",
+    "docs": "node-sass scss/inetum.scss docs/inetum.min.css --output-style compressed",
+    "dist": "npm-run-all --parallel css-main css-minify docs"
+  },
+  "style": "dist/css/inetum.css",
+  "sass": "scss/inetum.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inetum/inetum-bootstrap.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "inetum"
+  ],
+  "author": "Benjamin Francisoud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inetum/inetum-bootstrap/issues"
+  },
+  "homepage": "https://github.com/inetum/inetum-bootstrap",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "files": [
+    "dist/{css,js}/*.{css,js,map}",
+    "scss/**/*.scss"
+  ]
+}

@@ -18,16 +18,12 @@ You can directly download the css from [dist/css](dist/css)
 
 Use [jsdelivr > inetum > inetum-bootstrap](https://www.jsdelivr.com/package/gh/inetum/inetum-bootstrap?path=dist%2Fcss)
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inetum/inetum-bootstrap@4.5.3-rc1/dist/css/inetum.min.css" integrity="sha256-DZT1SObUN+nrHEXc3rdVOhcvqfTcUbORHyEEv+THSYg=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inetum/inetum-bootstrap@4.5.3-rc3/dist/css/inetum.min.css" integrity="sha256-DZT1SObUN+nrHEXc3rdVOhcvqfTcUbORHyEEv+THSYg=" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha256-2JaAhvdQnfNMMnhWPauHOZ2k+dzftBmBjjownu3HC4g=" crossorigin="anonymous"></script>
 
 ### Sass
 
 To use or extend sass in your project.
-
-Create a `.npmrc` with the following content:
-
-    @inetum:registry=https://npm.pkg.github.com
 
 Install:
 

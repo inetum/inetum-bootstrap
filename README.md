@@ -54,6 +54,7 @@ Version follow bootstrap versioning + an additional pre-release identifier as de
 |:-----------------:| ------------- |
 | 4.5.3-rc1         | ^4.5.3        |
 | 4.5.3-rc2         | ^4.5.3        |
+| 4.5.3-rc3         | ^4.5.3        |
 
 
 ## Credits
